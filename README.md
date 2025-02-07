@@ -1,16 +1,22 @@
-## Hello-goAWS 
-**Gestión de Categorías en AWS con Golang y Docker 🌐**
+## Hello-Go es una aplicación backend escrita en Golang que permite gestionar categorías mediante un sistema robusto y escalable alojado en la nube. Diseñado para demostrar la integración de contenedores Docker con servicios en AWS, este proyecto es ideal para entornos de producción.**
 
-**Recientemente he completado un proyecto llamado Hello-Go, una aplicación diseñada para gestionar categorías y datos en una base de datos MySQL alojada en RDS de AWS. Este proyecto combina tecnologías modernas como Docker, AWS EC2 y RDS para mostrar cómo se pueden integrar diferentes herramientas en un entorno de desarrollo profesional.**
+## Requisitos
+
+**Golang (versión >= 1.19).**
+
+**Docker y Docker Compose.**
+
+**AWS CLI configurado.**
+
 
 ✅ Backend: Golang, Docker.
 ✅ Base de datos: MySQL en Amazon RDS.
 ✅ Infraestructura: AWS EC2, Docker Compose.
 
-Retos enfrentados:
+***Retos enfrentados:**
 🔹 Configurar el acceso seguro entre EC2 y RDS usando Security Groups.
 🔹 Automatizar el despliegue de la aplicación con Docker Compose.
-🔹 Conectar una API REST en EC2 con RDS para manejar categorías.
+🔹 Conectar una API REST en EC2 con RDS para manejar categorías. 
 
 
 **#Golang #AWS #Docker #MySQL #Proyectos**
