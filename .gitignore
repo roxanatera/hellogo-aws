@@ -1,0 +1,32 @@
+# Ignora el archivo .env
+.env
+
+# Ignora node_modules (si es un proyecto Node.js)
+node_modules/
+
+# Ignora archivos de compilación o binarios
+bin/
+dist/
+build/
+*.exe
+*.out
+
+# Ignora archivos de IDE o editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignora archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignora logs y archivos temporales
+*.log
+*.tmp
+*.temp
+
+# Ignora archivos de entorno virtual (Python)
+venv/
+.env/
+.env*/
