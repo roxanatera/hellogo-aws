@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  app:
+    container_name: helloaws-golang 
+    build: 
+      context: ./
+    working_dir: /app
+    ports:
+      - "8081:8081"
+    networks:
+      - custom_network
+
+networks:
+  custom_network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.42.12.0/28
+          gateway: 172.42.12.1
+
